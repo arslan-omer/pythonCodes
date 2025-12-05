@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/writeName")
 def write_name():
-    return {"message": "Ömer Arslan"}
+    return {"message": "The Code Has Been Changed"}
 
 if __name__ == "__main__":
     # Uvicorn ile çalıştırıyoruz
