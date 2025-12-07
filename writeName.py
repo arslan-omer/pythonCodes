@@ -7,9 +7,6 @@ app = FastAPI()
 def write_name(name: str):
     return {"message": f"The Code Has Been Changed for {name}"}
 
-@app.get("/kml")
-def write_msg():
-    return {"message": "I love you kamileeee :)"}
     
 if __name__ == "__main__":
     # Uvicorn ile çalıştırıyoruz
